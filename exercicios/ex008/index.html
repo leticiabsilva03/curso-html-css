@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="imagens/Graphicloads-Food-Drink-Icecream-2.ico" type="image/x-icon">
+  <title>Trabalhando com links</title>
+  <style>
+    body {
+      background-color: hsl(0, 40%, 89%);
+    }
+  </style>
+</head>
+<body>
+  <h1>Usando links externos</h1>
+  <p>Links externos fazem a ligação com outras páginas fora do site.</p>
+  <p>Você pode acessar o meu <a href="https://github.com/leticiabsilva03" target="_blank" rel="external">repositório público no GitHub</a></p> 
+  <h2>Significado de "target="_blank""</h2>
+  <p>Para abrir o link em uma nova janela no navegador ao clicar nele basta usar: <strong>"target="_blank"</strong> "</p>
+  <p>Essa ação é recomendada para links externos ao site, como este do exemplo.</p>
+  <h2>Significado de "rel="external""</h2>
+  <p>O <strong>rel=”external”</strong>, indica que o documento referenciado não é parte do mesmo site do documento que o referencia. Muitos dizem que o external é um substituto do <strong>target=”_blank”</strong>, mas não é bem assim, pois ele por si só não abre os links em uma nova janela, precisa de um javascript ou jQuery para que execute tal função. Mas por que usá-lo? Pois o <strong>target=”_blank”</strong> não é um válido nos padrões do xhtml, portanto se deseja estar de acordo com o xhtml utilize-o com o código abaixo para que tenha a mesma função do <strong>target=”_blank”</strong>, além de informar que se trata de um link externo. Não tem nenhum peso direto no SEO.</p>
+
+
+  <h1>Usando links internos</h1>
+  <p>Faz a relação com outra página que está dentro do mesmo servidor.</p>
+  <p>Esta é a primeira página do site. Se você quiser, pode acessar também a minha <a href="pag002.html" rel="next" target="_self">segunda página.</a></p>
+  <p>Você também pode visitar a nossa <a href="noticias/pag003.html" rel="next" target="_self">página de notícias</a>. A utilização de "../" no href da tag A volta uma pasta para indexar um link interno.</p>
+
+
+  <h1>Links para downloads</h1>
+  <ul>
+    <li><a download="10 - Ligações em toda parte" href="livro/10 - Ligações em toda parte.pdf" target="_blank">Baixar o livro em PDF</a></li>
+    <li><a download="18 - Aprendendo Git e GitHub" href="livro/18 - Aprendendo Git e GitHub.pdf" target="_blank">Baixar material de Git e GitHub</a></li>
+    <li><a download="Graphicloads-Food-Drink-Icecream-2"  href="imagens/Graphicloads-Food-Drink-Icecream-2.ico" target="_blank">Baixe o ícone desta página!</a></li>
+    <li><a download="pexels-eberhard-grossgasteiger-443446" href="imagens/pexels-eberhard-grossgasteiger-443446.jpg">Baixe uma imagem!</a></li>
+  </ul>
+</body>
+</html>
