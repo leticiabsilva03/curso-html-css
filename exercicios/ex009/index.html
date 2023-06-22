@@ -12,6 +12,7 @@
   </style>
 </head>
 <body>
+
   <h1>Imagem dinâmica</h1>
   <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
   <p>O método picture trabalha com a largura (width) do site.</p>
@@ -20,5 +21,16 @@
     <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
     <img src="imagens/foto-g.png" alt="Imagem flexível">
   </picture>
+
+  <h1>Reproduzindo Áudio</h1>
+  <p>Vamos aprender a reproduzir áudios em HTML5</p>
+  <p>Os formatos disponíveis são: MP3, WAV e OGG</p>
+  <p>Música pop/eletrônica</p>
+  <audio src="media/pop.mp3" controls autoplay></audio>
+  <p>Música clássica</p>
+  <audio preload="metadata" autoplay controls>
+    <source src="media/classical.mp3" type="audio/mpeg">
+  </audio>
+
 </body>
 </html>
