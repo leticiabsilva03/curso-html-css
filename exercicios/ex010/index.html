@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+  <title>Vídeos com HTML5</title>
+  <style>
+    body {
+      background-color: hsl(0, 40%, 89%);
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Inserindo vídeos hospedados localmente</h1>
+  <p>Este vídeo está hospedado no meu próprio servidor.</p>
+  <p>Os formatos de vídeo utilizados são: mp4, m4v, webm e ogv.</p>
+  <p>Para utilizar mais de um formato para o mesmo vídeo, basta criar sources dentro da TAG video.</p>
+  <video src="media/video-1.mp4" width="500" poster="imagens/imagem-video.jpg" controls autoplay loop></video>
+  <video src="media/video-2.mp4" width="500" poster="imagens/imagem-video.jpg" controls></video>
+
+  <h1>Inserindo vídeos do YouTube e Vimeo</h1>
+  <p>Este vídeo está hospedado no YouTube/Vimeo e não consome serviço de hospedagem local.</p>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/OzUnqQk4eOg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+  <iframe src="https://player.vimeo.com/video/288187286?h=643d9a57fd&loop=1&color=ffffff&badge=0" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+</body>
+</html>
