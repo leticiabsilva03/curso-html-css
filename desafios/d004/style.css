@@ -15,11 +15,13 @@ h2 {
   color: #f58f7c;
   text-align: left;
   padding: 10px 10px;
+  font-size: 25px;
 }
 p {
   text-align: justify;
   color: #c5c6c7;
   padding: 10px 10px;
+  font-size: 20px;
 }
 
 a:link, a:visited { 
@@ -29,6 +31,7 @@ a:link, a:visited {
   text-align: center;
   text-decoration: none;
   display: inline-block;
+  font-size: 20px;
 }
 
 a:hover, a:active {
@@ -37,4 +40,5 @@ a:hover, a:active {
   padding: 14px 25px;
   text-align: center;
   display: inline-block;
+  font-size: 20px;
 }
