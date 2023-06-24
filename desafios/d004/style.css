@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body {
+  background-color: #1f2833;
+  font-family: 'Roboto Slab', serif;
+  margin: 0;
+  font-size: 16px;
+}
+h1 { 
+  color: #d1e8e2;
+  text-align: center;
+  padding: 10px 10px;
+}
+h2 { 
+  color: #f58f7c;
+  text-align: left;
+  padding: 10px 10px;
+}
+p {
+  text-align: justify;
+  color: #c5c6c7;
+  padding: 10px 10px;
+}
+
+a:link, a:visited { 
+  color:#d1e8e2;
+  text-decoration:none;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  color:#f58f7c;
+  text-decoration:underline;
+  padding: 14px 25px;
+  text-align: center;
+  display: inline-block;
+}

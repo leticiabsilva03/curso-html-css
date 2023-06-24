@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../imagens/Graphicloads-Food-Drink-Icecream-2.ico" type="image/x-icon">
+  <title>Imagem Flexível</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Imagem Flexível</h1>
+  <p>Esta é a minha página inicial, o índice do meu site. É a página cinza escuro. A partir dela você poderá acessar as outras áreas principais através dos links:</p>
+  <a class="one" href="page2.html" target="_blank" rel="next">Paisagem - Área Verde</a> <br>
+  <a class="one" href="page3.html" target="_blank" rel="next">Urbanismo - Área Laranja</a>
+  <h2>Imagens</h2>
+  <p>Você está vendo a imagem completa? Experimente ampliar o tamanho da sua janela para aproveitar a melhor experiência.</p>
+  <h2>Arte</h2>
+  <picture>
+    <source media="(max-width: 750px)" srcset="imagens/imagem-pp.jpg" type="image/jpg" align="center">
+    <source media="(max-width: 1050px)" srcset="imagens/imagem-p.jpg" type="image/jpg" align="center">
+    <source media="(max-width: 1550)" srcset="imagens/imagem-m.jpg" type="image/jpg" align="center">
+    <source media="(max-width: 1890px)" srcset="imagens/imagem-mg.jpg" type="image/jpg" align="center">
+    <img src="imagens/imagem-g.jpg" alt="Imagem flexível" align="center">
+  </picture>
+</body>
+</html>
